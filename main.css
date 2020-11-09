@@ -1,0 +1,21 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0%;
+    background-image: url(./back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .left {
+        width: 40%;
+        display: inline-block;
+        background-image: url(./left.jpg);
+    }
+
+    .right {
+        display: inline-block;
+    }
