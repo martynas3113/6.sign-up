@@ -16,6 +16,55 @@ body {
         background-image: url(./images/left.jpg);
     }
 
+        .left > h1 {
+
+        }
+
+        footer {
+
+        }
+
+            footer > a {
+
+            }
+
+            footer > span {
+
+            }
+
+
+
     .right {
         display: inline-block;
+        width: 40%;
+        background-color: white;
     }
+
+        .x {
+
+        }
+
+        form {
+
+        }
+
+            label {
+
+            }
+
+            input {
+
+            }
+
+            .start {
+
+            }
+
+            span {
+
+            }
+
+            a {
+
+            }
+
