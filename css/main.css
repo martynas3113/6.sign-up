@@ -10,22 +10,25 @@ body {
         margin-top: 100px;
         margin-left: calc((100% - 800px) / 2);
         /* background-color: whitesmoke; */
+        position: relative;
         
     }
 
         .left {
             display: inline-block;
             width: 40%;
-            float: left;
-            margin-top: 20px;
             background-color: blue;
             padding: 40px;
             padding-bottom: 20px;
-            
+            position: absolute;
+            top: 30px;
+            bottom: 30px;
 
-
-
+        
         }
+
+
+
 
             .left > h1 {
                
@@ -33,49 +36,50 @@ body {
                 color: white;
             }
 
-            footer {
-                
-                display: inline-block;
-            }
+                footer {
+                    
+                    display: inline-block;
+                    position: absolute;
+                    bottom: 20px;
+                    left: 40px;
+                }
 
-                footer > a {
+                    footer > a {
+                        color: white;
+                        width: 100%;
+
+                    }
+
+                    footer > span {
                     color: white;
-                    width: 100%;
-
-                }
-
-                footer > span {
-                   color: white;
-                }
-
+                    }
 
 
         .right {
            display: inline-block;
            width: 60%;
-           float: left;
-           background-color: green;
+           float: right;
+           background-color: white;
            padding: 60px;
+           position: relative;
            /* width: calc(60% - 120px); */
         }
 
-            .exit {
-                
-                
+        .exit {
+            display: inline-block;
+            width: 60px;
+            line-height: 60px;
+            top: 0px;
+            right: 0px;
+            position: absolute;
+            font-size: 30px;
+            text-align: center;
+        }  
+
+            .exit:hover{
+                cursor: pointer;
             }
 
-             .btn {
-                display: inline-block;
-                line-height: 20px;
-                padding: 10px;
-                font-size: 18px;
-                padding-right: 40px;
-                padding-left: 40px;
-                background-color: blue;
-                border-radius: 20px;
-                color: #ffffff;
-            }
-                
                .form-row > span {
                 display: inline-block;
                 padding: 10px;

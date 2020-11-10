@@ -35,5 +35,32 @@ form {
             font-size: 18px;
             /* line-break: 25px; */
             margin-top: 10px;
+            /* margin-bottom: 20px; */
+            border: none;
+            /* outline: none; */
+            border-bottom: 1px solid #777;
+        }
+
+        input:focus {
+            outline: 2px solid #0069BA;
 
         }
+
+        .form-row > span {
+            display: inline-block;
+            padding: 10px;
+            line-height: 25px;    
+            
+            }
+
+            .form-row > a {
+
+                display: inline-block;
+            padding: 10px;
+            line-height: 25px; 
+            text-decoration: none;
+                
+            }
+            
+
+            
