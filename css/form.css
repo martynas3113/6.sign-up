@@ -1,0 +1,23 @@
+form {
+
+    margin-top: 70px;
+}
+
+    label {
+        margin-top: 20px;
+        display: block;
+        margin-left: 62px;
+        font-size: 10px;
+        color: #C4C4C4;
+        text-transform: uppercase;
+    }
+
+    input {
+        margin-top: 10px;
+        display: block;
+        margin-left: 60px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #C4C4C4;
+        
+    }
