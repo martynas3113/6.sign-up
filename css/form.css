@@ -1,23 +1,39 @@
 form {
 
-    margin-top: 70px;
+   width: 100%;
+   display: inline;
+   margin-bottom: 30px;
+   
+
 }
 
-    label {
-        margin-top: 20px;
-        display: block;
-        margin-left: 62px;
-        font-size: 10px;
-        color: #C4C4C4;
-        text-transform: uppercase;
+
+    .form-row {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 30px;
     }
 
-    input {
-        margin-top: 10px;
-        display: block;
-        margin-left: 60px;
-        border: none;
-        outline: none;
-        border-bottom: 1px solid #C4C4C4;
-        
+    .form-row:last-of-type {
+        margin-bottom: 0%;
     }
+
+        label {
+        width: 100%;
+        margin-top: 5px;
+        display: inline-block;
+        font-size: 13px;
+        text-transform: uppercase;
+        line-height: 15x;
+        
+
+        }
+
+        input {
+            display: inline-block;
+            width: 100%;
+            font-size: 18px;
+            /* line-break: 25px; */
+            margin-top: 10px;
+
+        }
