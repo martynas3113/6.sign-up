@@ -13,6 +13,7 @@ Design: (https://cdn.discordapp.com/attachments/648536139677958156/6488608019979
 
 ## Project features
 - position absolute
+- forms
 - background images
 
 ## Authors
