@@ -3,7 +3,7 @@
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 
-### Personal website project
+### Personal project
 
 This project is for educational porpuses only. Pull request are welcome .Thank you for your cooperation!
 
